@@ -12,7 +12,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="flex justify-start">
-                    <a href="{{route('admin.permissions.index')}}" class="px-4 py-2 bg-green-700 hover:bg-green-500 rounded-md text-white">Role Index</a>
+                    <a href="{{route('admin.roles.index')}}" class="px-4 py-2 bg-green-700 hover:bg-green-500 rounded-md text-white">Role Index</a>
                 </div>
                 <div class="flex flex-col py-2">
                     <div class="space-y-8 divide-y divide-gray-200 w-1/2 mt-10">
@@ -34,8 +34,8 @@
                             </div>
                     </div>
                     </form>
-
                 </div>
+                
                 <div class="mt-6 p-2">
                     <h2 class="text-2xl font-semibold">Role Permissions</h2>
                     <div>
@@ -68,8 +68,9 @@
                     <div class="sm:col-span-6 pt-5">
                         <button type="submit" class="px-4 py-2 bg-green-500 hover:bg-green-700 rounded-md">Assign</button>
                     </div>
+                    </form>
                 </div>
-                </form>
+                
             </div>
 
         </div>

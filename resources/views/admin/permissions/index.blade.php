@@ -1,12 +1,5 @@
 <x-admin-layout>
-    <!-- Page Heading -->
-    @if (isset($header))
-    <header class="bg-white shadow">
-        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-            {{ $header }}
-        </div>
-    </header>
-    @endif
+
 
     <div class="py-12 w-full">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -38,7 +31,7 @@
 
                                 <td>
                                     <div class="flex justify-end">
-                                        <div class="spaxe-x-2">
+                                        <div class="space-x-2">
                                             <a href="{{route('admin.permissions.edit', $permission->id)}}" 
                                             
                                             class="px-4 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded-md">Edit</a>
