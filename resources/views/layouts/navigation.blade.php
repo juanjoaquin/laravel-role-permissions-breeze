@@ -16,6 +16,10 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
 
+                    <x-nav-link :href="route('blogs.index')" :active="request()->routeIs('blogs.index')">
+                        {{ __('Blogs') }}
+                    </x-nav-link>
+
                     @role('admin')
 
                     <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.index')">
